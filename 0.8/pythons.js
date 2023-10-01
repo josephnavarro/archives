@@ -258,7 +258,6 @@ window.cross_dl = async function cross_dl(url, flags) {
 
 
 
-
 //urlretrieve
 function DEPRECATED_wget_sync(url, store){
     const request = new XMLHttpRequest();
