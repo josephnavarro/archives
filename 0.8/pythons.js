@@ -289,14 +289,14 @@ function prerun(VM) {
 
     VM.FS = FS
 
-/*
+
     if (window.BrowserFS) {
         VM.BFS = new BrowserFS.EmscriptenFS()
         VM.BFS.Buffer = BrowserFS.BFSRequire('buffer').Buffer
     } else {
         console.error("VM.prerun","BrowserFS not found")
     }
-*/
+
     const sixel_prefix = String.fromCharCode(27)+"Pq"
 
 
