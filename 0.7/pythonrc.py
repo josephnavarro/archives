@@ -17,7 +17,7 @@ import json
 
 
 PYCONFIG_PKG_INDEXES_DEV = ["http://localhost:<port>/archives/repo/"]
-PYCONFIG_PKG_INDEXES = ["https://pygame-web.github.io/archives/repo/"]
+PYCONFIG_PKG_INDEXES = ["https://josephnavarro.github.io/archives/repo/"]
 
 ENABLE_USER_SITE = False
 
